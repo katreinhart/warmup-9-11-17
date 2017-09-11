@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+h3 {
+  font-family: 'Slabo 27px';
+  font-size: 1.5rem;
+  color: #454545;
+  text-decoration: underline;
+}
+
+nav {
+  background-color: #333;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px 10px 10px 80px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.row {
+  padding: 10px 5%;
+}
+
+.column {
+  float: left;
+  width: 30%;
+}
+
+.column:not(:first-child) {
+  padding-left: 40px;
+}
