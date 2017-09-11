@@ -1,4 +1,4 @@
-html, body {
+html, body, ul {
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -9,24 +9,31 @@ html, body {
 h3 {
   font-family: 'Slabo 27px';
   font-size: 1.5rem;
-  color: #454545;
+  color: #000000;
   text-decoration: underline;
 }
 
-nav {
-  background-color: #333;
+h5 {
+  font-size: 1rem;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
 
-ul {
+nav {
+  background-color: #330036;
+}
+
+nav ul {
   margin-top: 0;
   margin-bottom: 0;
-  padding: 10px 10px 10px 80px;
+  padding: 10px 10px 10px 60px;
   list-style: none;
 }
 
 nav a {
-  color: white;
-  font-size: 1.1rem;
+  color: #EAEAEA;
+  font-size: 1.3rem;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -40,14 +47,30 @@ nav a {
 }
 
 .row {
-  padding: 10px 5%;
+  padding: 40px 5%;
+  background-color: #CCA43B;
+  min-height: 55vh;
 }
 
 .column {
   float: left;
-  width: 30%;
+  width: 25%;
+  background-color: #DED6D6;
+  padding: 0px 20px 30px 20px;
 }
 
 .column:not(:first-child) {
-  padding-left: 40px;
+  margin-left: 40px;
+}
+
+.resources, .schedule {
+  list-style: none;
+}
+
+.resources li, .schedule li {
+  padding-bottom: 5px;
+}
+
+.time {
+  text-decoration: underline;
 }
